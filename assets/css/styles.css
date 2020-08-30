@@ -26,7 +26,7 @@ a:hover{
     height: 500px;
 }
 
-#startTime {
+#startGame {
     background-color: var(--primary);
     margin-left: 33%;
     padding: 15px 32px;
