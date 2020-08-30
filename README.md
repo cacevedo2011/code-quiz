@@ -6,7 +6,7 @@ The Code Quiz is an html / javaquiz wensite in which it lets the user interact w
 
 The first thing that I stated with the code was calling up the questions, choices and answers so the user can see start interact with;
 
-var questions = [
+    var questions = [
 
     {q: "Steve Sanchez loves eating?", choices:["Apples", "Bananas", "Water Melons", "Strawberies"], a: "Bananas"},
 
@@ -16,7 +16,7 @@ var questions = [
 
     {q: 'what was the order of Donald Trump Cognitive Test.', choices:["Person, Woman, Man, Camera, TV", "Person, Man, Woman, Camera, TV", "Woman, Camera, TV, Man", "TV, Camera, Man, Woman"], a: 'Person, Woman, Man, Camera, TV' }
 
-];
+    ];
 
 At the same time I went to index.html and added some divs, h1, ul, button with their perspective IDs
 
@@ -28,35 +28,24 @@ and I also did a highScore.html so the user can see who is the current leader
 
 Afterwards, I did an addEventListener when the user press the button
 
-timer.addEventListener("click", function () {
+    timer.addEventListener("click", function () {
 
-  // We are checking zero because its originally set to zero
-
-  if (holdInterval === 0) {
-
+    // We are checking zero because its originally set to zero
+    if (holdInterval === 0) {
       holdInterval = setInterval(function () {
-
           timeLeft--;
-
           currentTime.textContent = "Time: " + timeLeft;
 
           if (timeLeft <= 0) {
-
               clearInterval(holdInterval);
-
               allDone();
-
               currentTime.textContent = "Time's up!";
 
           }
-
       }, 1000);
-
-  }
-
-  render(questionIndex);
-
-});
+    }
+    render(questionIndex);
+    });
 
 What this code does, is that start the timer for the quiz.  I set the timer for 76 seconds.
 
