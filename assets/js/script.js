@@ -2,7 +2,7 @@
 
 var questions = [
     {q: "Steve Sanchez loves eating?", choices:["Apples", "Bananas", "Water Melons", "Strawberies"], a: "Bananas"},
-    {q: "The sky is ____ ", choices:["Red", "Black", "Blue", "green"], a: "Blue"},
+    {q: "The sky is ____ ", choices:["Red", "Black", "Blue", "Green"], a: "Blue"},
     {q: 'The 2020 President of the United States is ____', choices:["Barack Obama", "Hilary Clinton", "Ronald Regan", "Donald Trump"], a: 'Donald Trump' },
     {q: 'what was the order of Donald Trump Cognitive Test.', choices:["Person, Woman, Man, Camera, TV", "Person, Man, Woman, Camera, TV", "Woman, Camera, TV, Man", "TV, Camera, Man, Woman"], a: 'Person, Woman, Man, Camera, TV' }
 

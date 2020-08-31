@@ -10,7 +10,7 @@ The first thing that I stated with the code was calling up the questions, choice
 
     {q: "Steve Sanchez loves eating?", choices:["Apples", "Bananas", "Water Melons", "Strawberies"], a: "Bananas"},
 
-    {q: "The sky is ____ ", choices:["Red", "Black", "Blue", "green"], a: "Blue"},
+    {q: "The sky is ____ ", choices:["Red", "Black", "Blue", "Green"], a: "Blue"},
 
     {q: 'The 2020 President of the United States is ____', choices:["Barack Obama", "Hilary Clinton", "Ronald Regan", "Donald Trump"], a: 'Donald Trump' },
 
