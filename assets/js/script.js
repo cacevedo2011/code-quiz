@@ -133,7 +133,7 @@ function allDone() {
   // Label
   var createLabel = document.createElement("label");
   createLabel.setAttribute("id", "createLabel");
-  createLabel.textContent = "Enter your initials: ";
+  createLabel.textContent = "Enter your name or initials: ";
 
   questionsDiv.appendChild(createLabel);
 
