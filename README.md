@@ -93,4 +93,8 @@ Depending on the code, you can have infite number of questions but for the purpo
 
 Once finishing the challenge youll be prompt to write your name or initial so the high score could be displayed on the highScore.html
 
+![Screen Shot 2020-08-30 at 10 37 04 PM](https://user-images.githubusercontent.com/18291317/91677966-4bb03800-eb12-11ea-9449-2dde3f04249b.png)
+
+This one is after you put your recent high score (I added more to populate this area)
+
 <img width="1280" alt="Screen Shot 2020-08-30 at 5 16 50 PM" src="https://user-images.githubusercontent.com/18291317/91677864-068c0600-eb12-11ea-91f2-a5e5e5603fed.png">
