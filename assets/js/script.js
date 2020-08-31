@@ -67,6 +67,7 @@ function render(questionIndex) {
       listItem.addEventListener("click", (compare));
   })
 }
+
 // Event to compare choices with answer
 function compare(event) {
   var element = event.target;
@@ -87,6 +88,7 @@ function compare(event) {
       }
 
   }
+
   // Question Index determines number question user is on
   questionIndex++;
 
@@ -153,7 +155,7 @@ function allDone() {
 
   questionsDiv.appendChild(createSubmit);
 
-    // Event listener to capture initials and local storage for initials and score
+// Event listener to capture initials and local storage for initials and score
 createSubmit.addEventListener("click", function () {
     var initials = createInput.value;
 

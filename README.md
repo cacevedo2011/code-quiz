@@ -81,7 +81,7 @@ As you would see in this image, it displays the high score in the website but th
 
 ## Step by Step code
 
-Upon entering on the website, youll be greated with "Quiz Challenge"
+Upon entering on the website, you'll be greated with "Quiz Challenge"
 
 <img width="1280" alt="Screen Shot 2020-08-30 at 5 17 07 PM" src="https://user-images.githubusercontent.com/18291317/91677441-b06a9300-eb10-11ea-90d0-a8e11ae63b23.png">
 
