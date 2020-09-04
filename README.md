@@ -6,74 +6,7 @@ The Code Quiz is an html / javaScript website in which it lets the user interact
 
 The first thing that I stated with the code was calling up the questions, choices and answers so the user can see start interact with;
 
-    var questions = [
-
-    {q: "Steve Sanchez loves eating?", choices:["Apples", "Bananas", "Water Melons", "Strawberies"], a: "Bananas"},
-
-    {q: "The sky is ____ ", choices:["Red", "Black", "Blue", "Green"], a: "Blue"},
-
-    {q: 'The 2020 President of the United States is ____', choices:["Barack Obama", "Hilary Clinton", "Ronald Regan", "Donald Trump"], a: 'Donald Trump' },
-
-    {q: 'what was the order of Donald Trump Cognitive Test.', choices:["Person, Woman, Man, Camera, TV", "Person, Man, Woman, Camera, TV", "Woman, Camera, TV, Man", "TV, Camera, Man, Woman"], a: 'Person, Woman, Man, Camera, TV' }
-
-    ];
-
-At the same time I went to index.html and added some divs, h1, ul, button with their perspective IDs
-
-![Screen Shot 2020-08-30 at 6 03 52 PM](https://user-images.githubusercontent.com/18291317/91670414-4d1a3a00-eaeb-11ea-96cb-c9e74b584ace.png)
-
-and I also did a highScore.html so the user can see who is the current leader
-
-![Screen Shot 2020-08-30 at 6 04 10 PM](https://user-images.githubusercontent.com/18291317/91670502-3d4f2580-eaec-11ea-8ee0-bea4fdab0179.png)
-
-Afterwards, I did an addEventListener when the user press the button
-
-    timer.addEventListener("click", function () {
-
-    // We are checking zero because its originally set to zero
-    if (holdInterval === 0) {
-      holdInterval = setInterval(function () {
-          timeLeft--;
-          currentTime.textContent = "Time: " + timeLeft;
-
-          if (timeLeft <= 0) {
-              clearInterval(holdInterval);
-              allDone();
-              currentTime.textContent = "Time's up!";
-
-          }
-      }, 1000);
-    }
-    render(questionIndex);
-    });
-
-What this code does, is that start the timer for the quiz.  I set the timer for 76 seconds.
-
-Next I generated the questions and options for the answers so it could be displayed in the website.
-
-    // Renders questions and choices to page: 
-    function render(questionIndex) {
-    // Clears existing data 
-    questionsDiv.innerHTML = "";
-        ulCreate.innerHTML = "";
-    // For loops to loop through all info in array
-        for (var i = 0; i < questions.length; i++) {
-      // Appends question title only
-            var userQuestion = questions[questionIndex].q;
-            var userChoices = questions[questionIndex].choices;
-            questionsDiv.textContent = userQuestion;
-    }
-    // New for each for question choices
-    userChoices.forEach(function (newItem) {
-        var listItem = document.createElement("li");
-        listItem.textContent = newItem;
-        questionsDiv.appendChild(ulCreate);
-        ulCreate.appendChild(listItem);
-        listItem.addEventListener("click", (compare));
-    })
-    }
-
-After I compared the choices with the answers in which I called it as _"a"_ and I basically said if you have it right you get points and the timer doesn't change and else you dont get points plus the penalty in which you get time deducted. and when finishing the game it would create a local file with the scores and send it to the highScore.html so it could display it.
+Then I compared the choices with the answers in which I called it as _"a"_ and I basically said if you have it right you get points and the timer doesn't change and else you dont get points plus the penalty in which you get time deducted. and when finishing the game it would create a local file with the scores and send it to the highScore.html so it could display it.
 
 As you would see in this image, it displays the high score in the website but the information is saved in your local storage of your computer.
 
