@@ -1,5 +1,7 @@
 # code-quiz
 
+## Link
+Deployed Website: https://cacevedo2011.github.io/code-quiz/
 ## Summary
 
 The Code Quiz is an html / javaScript website in which it lets the user interact with.  Code Quiz like previously said, it uses HTML but most of the coding using JavaScript to make the website be more interactive rather being static.
